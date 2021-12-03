@@ -7,4 +7,4 @@ tonalnost=tonality()
 note=['','c']
 
 
-
+print(tonalnost.C_dur('m','up'))
