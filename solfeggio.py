@@ -384,7 +384,7 @@ class tonality():
 notes={1:'a',2:'h',3:'c',4:'d',5:'e',6:'f',7:'g'}
 marks={-2:'ᵇᵇ',-1:'ᵇ',0:'',1:'#',2:'##'}
 
-class simple_intervals():    
+class simple_intervals():
     def __init__(self):
         pass
         
@@ -720,3 +720,21 @@ class simple_intervals():
 
     def octava(self,mark,first_note):
         return mark, first_note
+
+
+# class D_sptacrd():
+#     def __init__(self):
+#         pass
+
+#     def D7(f_mark,first_note):
+#         n1=[f_mark,first_note]
+#         n2=simple_intervals.big_tercia(f_mark,first_note)
+#         n3=simple_intervals.small_tercia(n2[0],n2[1])
+#         n4=simple_intervals.small_tercia(n3[0],n3[1])
+#         nots=[n1,n2,n3,n4]
+#         print(nots)
+#         return nots
+
+
+
+
