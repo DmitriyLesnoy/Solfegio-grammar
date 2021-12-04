@@ -1,6 +1,6 @@
-from simple_intervals import simple_intervals
+import solfeggio
 
-intervals=simple_intervals()
+intervals=solfeggio.simple_intervals()
 
 note=['','c']
 
