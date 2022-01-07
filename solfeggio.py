@@ -1,8 +1,6 @@
 class tonality():
     def __init__(self):
         pass
-        
-    #  dies tonality  #
 
     def C_dur(self,kind='n',dir='up'):
         t=[['','c'],['','d'],['','e'],['','f'],['','g'],['','a'],['','h']]
@@ -28,7 +26,9 @@ class tonality():
                 t[6][0]='#'
                 t[5][0]='#'
             return t
-
+    
+    #  dies tonality  #
+    
     def G_dur(self,kind='n',dir='up'):
         t=[['','g'],['','a'],['','h'],['','c'],['','d'],['','e'],['#','f']]
         if kind=='n':
